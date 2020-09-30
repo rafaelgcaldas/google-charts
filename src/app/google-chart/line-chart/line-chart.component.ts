@@ -30,11 +30,12 @@ export class LineChartComponent implements OnInit {
       ['2007', 1030, 540]
     ]);
 
-    var options = {
+    let options = {
       'title': 'Componente de gráfico de linha',
       'width': 600,
       'height': 400
     };
+    
     let chart = new this.gLib.visualization.LineChart(document.getElementById('divLineChart'));
 
     chart.draw(data, options);

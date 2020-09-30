@@ -54,7 +54,6 @@
     display: flex;
     margin: 82px auto 32px;
     padding: 0 16px;
-    max-width: 960px;
     flex-direction: column;
     align-items: center;
   }
@@ -246,6 +245,17 @@
     height: 16px;
     width: 16px;
     margin-right: 4px;
+  }
+
+  .chart-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+
+  .chart-container app-pie-chart {
+    margin-left: 8px;
   }
 
 
